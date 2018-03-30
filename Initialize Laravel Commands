@@ -13,7 +13,10 @@ c:> php -v
 For check composer
 c:\> composer
 
-For start php artisan
+Via composer create projec
+composer create-project --prefer-dist laravel/laravel blog
+
+For start local development server
 php artisan serve
 
 Assign localhost with new port on localhost
