@@ -13,12 +13,10 @@ c:> php -v
 For check composer
 c:\> composer
 
-create project
+Create project via laravel installer
 laravel new blog
 
-or
-
-Via composer create project
+Create Project Via composer
 composer create-project --prefer-dist laravel/laravel blog
 
 For start local development server
