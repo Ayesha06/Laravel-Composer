@@ -1,2 +1,28 @@
-//Assign localhost with new port on localhost
+For open directory
+c:\xampp\htdocs> cd blog
+
+For back in the directory
+c:\xampp\htdocs\blog>cd\
+
+For back in the folder
+c:\xampp\htdocs\blog cd..
+
+For check PHP version
+c:> php -v
+
+For check composer
+c:\> composer
+
+For start php artisan
+php artisan serve
+
+Assign localhost with new port on localhost
 c:\xampp\htdocs\blog\public> php -S localhost
+
+Get composer commands
+c:\xampp\htdocs\blog> php artisan
+
+For create controller
+c:\xampp\htdocs\blog php artisan make:controller UsersController
+
+
