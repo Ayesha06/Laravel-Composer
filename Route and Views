@@ -15,7 +15,7 @@ How to pass data to view
 Example: $tutorials = ['Laravel','Wordpress','PHP'];
 
 route::get('tutorials',['tutorials' => $tutorials]);
-or
+or 
 route::get('tutorials')->with(['tutorials' => $tutorials]));
 or
 route::get('tutorials')->withTutorials($tutorials);
