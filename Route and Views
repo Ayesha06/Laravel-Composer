@@ -8,3 +8,16 @@ Create route in the routes->web.php file with the following methods:
 4. Route::patch($uri, $callback);
 5. Route::delete($uri, $callback);
 6. Route::options($uri, $callback);
+
+
+How to pass data to view
+
+Example: $tutorials = ['Laravel','Wordpress','PHP'];
+
+route::get('tutorials',['tutorials' => $tutorials]);
+or
+route::get('tutorials')->with(['tutorials' => $tutorials]));
+or
+route::get('tutorials')->withTutorials($tutorials);
+or
+route::get('tutorials', compact('tutorials'));
